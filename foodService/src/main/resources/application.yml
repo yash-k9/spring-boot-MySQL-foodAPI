@@ -1,0 +1,18 @@
+spring:
+  applicaton:
+    name: food-service
+
+  server:
+    port: 8080
+
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/foodcatalog
+    username: root
+    password: toor
+
+  jpa:
+    hibernate.ddl-auto: update
+    hibernate.default_schema: foodcatalog
+    generate-ddl: true
+    show-sql: true
